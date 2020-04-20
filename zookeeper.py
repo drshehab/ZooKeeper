@@ -121,7 +121,6 @@ It seems there will be more rabbits soon!"""
 
 animals = [camel, lion, deer, goose, bat, rabbit]
 
-# write your code here
 user_input = input("Which habitat # do you need? ")
 while user_input != "exit":
     print(animals[int(user_input)])
